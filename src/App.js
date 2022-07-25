@@ -1,10 +1,11 @@
 // import logo from './logo.svg';
 import "./App.css";
 import Databinding from "./Databinding/Databinding";
+import BaiTapThucHanhLayout from "./BaiTapLayoutComponent/BaiTapThucHanhLayout";
 function App() {
   return (
     <div className="App">
-      <Databinding></Databinding>
+      <BaiTapThucHanhLayout></BaiTapThucHanhLayout>
     </div>
   );
 }
