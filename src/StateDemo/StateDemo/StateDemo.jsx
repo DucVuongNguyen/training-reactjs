@@ -39,7 +39,7 @@ export default class StateDemo extends Component {
                 <hr />
 
                 <BaiTapChonXe></BaiTapChonXe>
-                {/* <BaiTapTangGiamFontSize></BaiTapTangGiamFontSize> */}
+                <BaiTapTangGiamFontSize></BaiTapTangGiamFontSize>
 
 
             </>
