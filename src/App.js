@@ -19,13 +19,13 @@ function App() {
       {/* <HandleEvent></HandleEvent> */}
       {/* <StyleWithJSX></StyleWithJSX> */}
       {/* <StateDemo></StateDemo> */}
-      {/* <BaiTapReactjsBuoi2State></BaiTapReactjsBuoi2State> */}
+      <BaiTapReactjsBuoi2State></BaiTapReactjsBuoi2State>
       {/* <RenderWithMAp></RenderWithMAp> */}
       {/* <LayoutFIlm></LayoutFIlm> */}
       {/* <DemoProps></DemoProps> */}
       {/* <ShoesShop></ShoesShop> */}
       {/* <DemoXemChiTiet></DemoXemChiTiet> */}
-      <ExerciseCarStore></ExerciseCarStore>
+      {/* <ExerciseCarStore></ExerciseCarStore> */}
     </div>
   );
 }

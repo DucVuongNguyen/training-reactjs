@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .model {
+        position: relative;
+
+        .Glasses {
+            position: absolute;
+            top: 25%;
+            bottom: 50%;
+            right: 50%;
+            left: 20%;
+            width: 60%;
+        }
+    }
+
+    .ListGlasses {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+
+        .GlassesItem {
+            margin: 0px 10px;
+            border: solid #000 1px;
+
+        }
+    }
+}
