@@ -10,6 +10,8 @@ import RenderWithMAp from "./RenderWithMap/RenderWithMAp";
 import LayoutFIlm from "./RenderWithMap/LayoutFIlm";
 import DemoProps from "./Props/DemoProps/DemoProps";
 import ShoesShop from "./Props/ShoesShop/ShoesShop";
+import DemoXemChiTiet from "./Props/DemoXemChiTiet/DemoXemChiTiet";
+import ExerciseCarStore from "./Props/ExerciseCarStore/ExerciseCarStore";
 function App() {
   return (
     <div className="App">
@@ -21,7 +23,9 @@ function App() {
       {/* <RenderWithMAp></RenderWithMAp> */}
       {/* <LayoutFIlm></LayoutFIlm> */}
       {/* <DemoProps></DemoProps> */}
-      <ShoesShop></ShoesShop>
+      {/* <ShoesShop></ShoesShop> */}
+      {/* <DemoXemChiTiet></DemoXemChiTiet> */}
+      <ExerciseCarStore></ExerciseCarStore>
     </div>
   );
 }
