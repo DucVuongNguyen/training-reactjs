@@ -23,7 +23,7 @@ function App() {
       {/* <RenderWithMAp></RenderWithMAp> */}
       {/* <LayoutFIlm></LayoutFIlm> */}
       {/* <DemoProps></DemoProps> */}
-      {/* <ShoesShop></ShoesShop> */}
+      <ShoesShop></ShoesShop>
       {/* <DemoXemChiTiet></DemoXemChiTiet> */}
       {/* <ExerciseCarStore></ExerciseCarStore> */}
     </div>
