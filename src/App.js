@@ -60,7 +60,16 @@ function App() {
                 React Form
               </NavLink>
             </li>
-          
+            <li className="nav-item">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "nav-link bg-light text-dark" : "nav-link"
+                }
+                to="/lifecycle"
+              >
+                Life Cycle
+              </NavLink>
+            </li>
           </ul>
           <form className="d-flex my-2 my-lg-0">
             <input

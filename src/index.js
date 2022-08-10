@@ -10,6 +10,7 @@ import Home from "./Page/Home/Home";
 import About from "./Page/About/About";
 import ReactForm from "./ReactForm/ReactForm"; 
 import Page404 from "./Page/Page404/Page404";
+import ReactLifecycle from "./Page/ReactLifecycle/ReactLifecycle";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
@@ -20,6 +21,7 @@ root.render(
         <Route path="About" element={<About></About>} />
         <Route path="reactform" element={<ReactForm></ReactForm>} />
         {/* <Route path="*" element={<Page404></Page404>} /> */}
+        <Route path="lifecycle" element={<ReactLifecycle></ReactLifecycle>} />
         <Route path="*" element={<Navigate to=""></Navigate>} />
       </Route>
       {/* <Route path="/contact" element={<Contact></Contact>}>
